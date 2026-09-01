@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# uv
+.uv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Notebooks / data / models
+datasets/
+outputs/
+checkpoints/
+wandb/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# LeRobot / HF caches
+.cache/
+huggingface/
+
+# Editors & OS
+.idea/
+*.swp
+.DS_Store

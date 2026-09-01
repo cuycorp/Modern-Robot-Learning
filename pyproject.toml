@@ -1,0 +1,10 @@
+[project]
+name = "modern-robot-learning"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "LeLab @ git+https://github.com/huggingface/leLab.git",
+]
