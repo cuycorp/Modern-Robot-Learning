@@ -22,7 +22,13 @@ venv/
 .ipynb_checkpoints/
 
 # Notebooks / data / models
-datasets/
+datasets/*
+!datasets/schema/
+!datasets/scripts/
+datasets/schema/*
+!datasets/schema/.gitkeep
+datasets/scripts/*
+!datasets/scripts/.gitkeep
 outputs/
 checkpoints/
 wandb/
